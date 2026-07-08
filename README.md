@@ -58,5 +58,6 @@ curl -X POST localhost:8080/api/approvals/1/process -H "Content-Type: applicatio
 | 전체 | 테스트 0개 (리팩토링 안전망 부재) |
 | `ApprovalController` | 요청 DTO 부재, 매직넘버 action 노출 |
 
-> 상세한 단계별 리팩토링 절차와 Claude Code 프롬프트는 상위 폴더의
-> **`REFACTORING_GUIDE.md`** 를 참고하세요.
+> 리팩토링 규칙과 개선 방향(매직넘버→enum · 직접 `new`→생성자 주입(DIP) · God 분해 · DTO 분리 · Rich Domain)은
+> 이 저장소의 **`CLAUDE.md`** 를 참고하세요. 특히 **불변 규칙**(API·DB값·동작 보존)과 **특성화 테스트 절대 불변 규칙**이 핵심입니다.
+> 단계별 실습 프롬프트는 강의 교재(Day1/Day2 PPT)를 따릅니다.
