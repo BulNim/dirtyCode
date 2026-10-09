@@ -15,7 +15,7 @@
     <artifactId>legacy-portal</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>legacy-portal</name>
-    <description>KT DS 사내 업무 포털 (결재/공지/일정) — 클린코드 &amp; 리팩토링 실습용 레거시</description>
+    <description>사내 업무 포털 (결재/공지/일정) — 클린코드 &amp; 리팩토링 실습용 레거시</description>
 
     <properties>
         <java.version>21</java.version>
