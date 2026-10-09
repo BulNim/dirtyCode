@@ -29,8 +29,9 @@
 ## 빠른 동작 확인 (예: 결재 상신)
 ```bash
 # 1) 결재 생성 (기안자=1 김사원, 결재자=2 박팀장, 지출 120만원)
+#    Windows Git Bash 는 한글 JSON 이 깨져 400 이 나므로 예시 값은 영문
 curl -X POST localhost:8080/api/approvals -H "Content-Type: application/json" \
-  -d '{"title":"노트북 구매","content":"개발용","type":1,"priority":2,"drafterId":1,"approverId":2,"amount":1200000}'
+  -d '{"title":"Laptop","content":"for dev","type":1,"priority":2,"drafterId":1,"approverId":2,"amount":1200000}'
 
 # 2) 상신 (action=1)
 curl -X POST localhost:8080/api/approvals/1/process -H "Content-Type: application/json" \

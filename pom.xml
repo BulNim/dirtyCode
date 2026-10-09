@@ -61,6 +61,28 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <!-- 정적 분석: ./mvnw sonar:sonar 짧은 명령이 되도록 버전 고정 (1일차 4장 SonarQube 실습) -->
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>5.8.0.7211</version>
+            </plugin>
+            <!-- 테스트 커버리지: ./mvnw test 때 target/site/jacoco 에 리포트 생성 (SonarQube 커버리지 반영) -->
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.12</version>
+                <executions>
+                    <execution>
+                        <goals><goal>prepare-agent</goal></goals>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>test</phase>
+                        <goals><goal>report</goal></goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 </project>
