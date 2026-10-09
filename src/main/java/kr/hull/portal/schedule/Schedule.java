@@ -1,4 +1,4 @@
-package com.ktds.portal.schedule;
+package kr.hull.portal.schedule;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;

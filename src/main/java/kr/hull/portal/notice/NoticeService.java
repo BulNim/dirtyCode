@@ -1,9 +1,9 @@
-package com.ktds.portal.notice;
+package kr.hull.portal.notice;
 
-import com.ktds.portal.common.FileAuditLogger;
-import com.ktds.portal.common.SmtpMailSender;
-import com.ktds.portal.user.User;
-import com.ktds.portal.user.UserRepository;
+import kr.hull.portal.common.FileAuditLogger;
+import kr.hull.portal.common.SmtpMailSender;
+import kr.hull.portal.user.User;
+import kr.hull.portal.user.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;

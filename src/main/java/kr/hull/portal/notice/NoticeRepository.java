@@ -1,4 +1,4 @@
-package com.ktds.portal.notice;
+package kr.hull.portal.notice;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

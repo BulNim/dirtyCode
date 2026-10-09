@@ -1,4 +1,4 @@
-package com.ktds.portal.common;
+package kr.hull.portal.common;
 
 /**
  * 감사 로그 기록기.

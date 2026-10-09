@@ -1,4 +1,4 @@
-package com.ktds.portal.user;
+package kr.hull.portal.user;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

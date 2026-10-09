@@ -1,4 +1,4 @@
-package com.ktds.portal.approval;
+package kr.hull.portal.approval;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;

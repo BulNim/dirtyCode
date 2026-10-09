@@ -1,8 +1,8 @@
-package com.ktds.portal.schedule;
+package kr.hull.portal.schedule;
 
-import com.ktds.portal.common.FileAuditLogger;
-import com.ktds.portal.user.User;
-import com.ktds.portal.user.UserRepository;
+import kr.hull.portal.common.FileAuditLogger;
+import kr.hull.portal.user.User;
+import kr.hull.portal.user.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;

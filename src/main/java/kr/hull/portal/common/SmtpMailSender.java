@@ -1,4 +1,4 @@
-package com.ktds.portal.common;
+package kr.hull.portal.common;
 
 /**
  * 메일 발송기.

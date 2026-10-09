@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.ktds.portal</groupId>
+    <groupId>kr.hull.portal</groupId>
     <artifactId>legacy-portal</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>legacy-portal</name>

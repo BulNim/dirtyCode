@@ -1,4 +1,4 @@
-package com.ktds.portal;
+package kr.hull.portal;
 
 import com.zaxxer.hikari.HikariDataSource;
 import org.springframework.boot.jdbc.DataSourceBuilder;

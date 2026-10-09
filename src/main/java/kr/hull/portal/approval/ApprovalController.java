@@ -1,4 +1,4 @@
-package com.ktds.portal.approval;
+package kr.hull.portal.approval;
 
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

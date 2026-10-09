@@ -1,7 +1,7 @@
-package com.ktds.portal;
+package kr.hull.portal;
 
-import com.ktds.portal.user.User;
-import com.ktds.portal.user.UserRepository;
+import kr.hull.portal.user.User;
+import kr.hull.portal.user.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -21,10 +21,10 @@ public class DataSeeder implements CommandLineRunner {
     @Override
     public void run(String... args) {
         if (userRepo.count() > 0) return;
-        userRepo.save(new User("김사원", "kim@ktds.com", 1, "개발1팀"));
-        userRepo.save(new User("박팀장", "park@ktds.com", 2, "개발1팀"));
-        userRepo.save(new User("이임원", "lee@ktds.com", 3, "경영지원"));
-        userRepo.save(new User("최사원", "choi@ktds.com", 1, "개발2팀"));
+        userRepo.save(new User("김사원", "kim@hull.kr", 1, "개발1팀"));
+        userRepo.save(new User("박팀장", "park@hull.kr", 2, "개발1팀"));
+        userRepo.save(new User("이임원", "lee@hull.kr", 3, "경영지원"));
+        userRepo.save(new User("최사원", "choi@hull.kr", 1, "개발2팀"));
         System.out.println(">> 초기 사용자 4명 생성 완료");
     }
 }
